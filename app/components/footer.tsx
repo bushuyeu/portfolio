@@ -35,10 +35,10 @@ export default function Footer() {
             className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://github.com/vercel/next.js"
+            href="https://t.me/pbushuyeu"
           >
             <ArrowIcon />
-            <p className="ml-2 h-7">linkedin</p>
+            <p className="ml-2 h-7">telegram</p>
           </a>
         </li>
         <li>
@@ -49,7 +49,7 @@ export default function Footer() {
             href="https://www.linkedin.com/in/bushuyeu/"
           >
             <ArrowIcon />
-            <p className="ml-2 h-7">view source</p>
+            <p className="ml-2 h-7">linkedin</p>
           </a>
         </li>
       </ul>
