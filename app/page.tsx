@@ -17,7 +17,7 @@ export default function Page() {
       </h4>
       <p className="mb-4">
         {`
-        SmartX:
+        1. SmartX:
         `}
       </p>
       <ul>
@@ -25,6 +25,36 @@ export default function Page() {
           {"- fastest growing Asset Management Platform, 2022"}
         </li>
         <li className="mb-4">{"- launch of the Billing Application, 2021"}</li>
+      </ul>
+      <p className="mb-4">
+        {`
+        2. LogicMonitor:
+        `}
+      </p>
+      <ul>
+        <li className="mb-4">{"- Gartner's Best Monitoring Tools, 2019"}</li>
+      </ul>
+      <p className="mb-4">
+        {`
+        3. Gurtam:
+        `}
+      </p>
+      <ul>
+        <li className="mb-4">{"- re-launch of mobile apps, 2017"}</li>
+        <li className="mb-4">{"- mobile logins 5% -> 75% in 1 year, 2018"}</li>
+      </ul>
+      <p className="mb-4">
+        {`
+        4. Vizor Games:
+        `}
+      </p>
+      <ul>
+        <li className="mb-4">
+          {"- Klondike - Facebooks's Best Web Geme, 2015"}
+        </li>
+        <li className="mb-4">
+          {"- Knights & Brides - Facebook's Best New Game, 2016"}
+        </li>
       </ul>
       <div className="my-8">
         <BlogPosts />
