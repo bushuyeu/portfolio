@@ -23,10 +23,10 @@ export default function Page() {
           {`- Gartner named LogicMonitor the Best Monitoring Tools of 2019;`}
         </li>
         <li className="mb-4">
-          {`— Facebook names Vizor's Knights & Brides the Best New Game of 2016;`}
+          {`- Facebook names Vizor's Knights & Brides the Best New Game of 2016;`}
         </li>
         <li className="mb-4">
-          {`— Facebook names Vizor's Klondike the Best Web Geme of 2015.`}
+          {`- Facebook names Vizor's Klondike the Best Web Geme of 2015.`}
         </li>
       </ul>
 
