@@ -15,10 +15,16 @@ export default function Page() {
         Selected achievements and awards:
         `}
       </h4>
+      <p className="mb-4">
+        {`
+        SmartX:
+        `}
+      </p>
       <ul>
         <li className="mb-4">
-          {"fastest growing Asset Management Platform, 2022"}
+          {"- fastest growing Asset Management Platform, 2022"}
         </li>
+        <li className="mb-4">{"- launch of the Billing Application, 2021"}</li>
       </ul>
       <div className="my-8">
         <BlogPosts />
