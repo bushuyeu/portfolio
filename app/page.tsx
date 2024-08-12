@@ -12,7 +12,7 @@ export default function Page() {
       </h3>
       <h4 className="mb-4 text-xl">
         {`
-        Career highlights:
+        Career highlights
         `}
       </h4>
       <ul>
