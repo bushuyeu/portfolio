@@ -12,7 +12,7 @@ export default function Page() {
       </h3>
       <h4 className="mb-4 text-xl">
         {`
-        Selected achievements and awards:
+        Career highlights:
         `}
       </h4>
       <ul>
@@ -29,7 +29,7 @@ export default function Page() {
           {`- Facebook names Vizor's Klondike the Best Web Geme of 2015.`}
         </li>
       </ul>
-
+      <br></br>
       <p className="mb-4">
         {`Besides tech, I also enjoy endurance sports and wild nature.`}
       </p>
