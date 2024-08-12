@@ -8,7 +8,7 @@ export default function Page() {
       </h1>
       <h3 className="mb-4">
         {` 
-        Hello. I'm Pavel,a technology product leader, delivering quality products since 2014, mainly focused on B2B SaaS solutions.
+        Hello. I'm Pavel,a technology product leader, delivering products since 2014, mainly focused on B2B SaaS solutions.
         `}
       </h3>
       <h3 className="mb-4">
