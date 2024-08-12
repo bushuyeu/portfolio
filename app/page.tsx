@@ -6,7 +6,7 @@ export default function Page() {
       <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
         Pavel Bushuyeu
       </h1>
-      <h3 className="mb-5">
+      <h3 className="mb-4">
         {`Hello. My name is Pavel and I am a technology product leader and entrepreneur with a passion for product design.
         `}
       </h3>
@@ -15,6 +15,11 @@ export default function Page() {
         Selected achievements and awards:
         `}
       </h4>
+      <ul>
+        <li className="mb-4">
+          {"fastest growing Asset Management Platform, 2022"}
+        </li>
+      </ul>
       <div className="my-8">
         <BlogPosts />
       </div>
