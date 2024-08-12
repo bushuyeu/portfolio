@@ -8,7 +8,7 @@ export default function Page() {
       </h1>
       <h3 className="mb-4">
         {` 
-        Hello. I'm Pavel,a technology product leader, delivering products since 2014, mainly focused on B2B SaaS solutions.
+        Hello. I'm Pavel, a technology product leader, focused on B2B SaaS solutions.
         `}
       </h3>
       <h3 className="mb-4">
@@ -18,7 +18,7 @@ export default function Page() {
       </h3>
       <h4 className="mb-4 text-xl">
         {`
-        Awards
+        Selected awards
         `}
       </h4>
       <ul>
@@ -39,9 +39,9 @@ export default function Page() {
       <p className="mb-4">
         {`Besides tech, I also enjoy endurance sports and wild nature.`}
       </p>
-      <div className="my-8">
+      {/* <div className="my-8">
         <BlogPosts />
-      </div>
+      </div> */}
     </section>
   );
 }
