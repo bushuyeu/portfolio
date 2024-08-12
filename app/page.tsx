@@ -17,7 +17,7 @@ export default function Page() {
       </h4>
       <p className="mb-4">
         {`
-        1. SmartX:
+        SmartX:
         `}
       </p>
       <ul>
@@ -28,7 +28,7 @@ export default function Page() {
       </ul>
       <p className="mb-4">
         {`
-        2. LogicMonitor:
+        LogicMonitor:
         `}
       </p>
       <ul>
@@ -36,7 +36,7 @@ export default function Page() {
       </ul>
       <p className="mb-4">
         {`
-        3. Gurtam:
+        Gurtam:
         `}
       </p>
       <ul>
@@ -45,7 +45,7 @@ export default function Page() {
       </ul>
       <p className="mb-4">
         {`
-        4. Vizor Games:
+        Vizor Games:
         `}
       </p>
       <ul>
