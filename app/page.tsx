@@ -10,7 +10,7 @@ export default function Page() {
         {`Hello. My name is Pavel and I am a technology product leader and entrepreneur with a passion for product design.
         `}
       </h3>
-      <h4 className="mb-7">
+      <h4 className="mb-4 text-l">
         {`
         Selected achievements and awards
         `}
