@@ -10,9 +10,9 @@ export default function Page() {
         {`Hello. My name is Pavel and I am a technology product leader and entrepreneur with a passion for product design.
         `}
       </h3>
-      <h4 className="mb-4">
+      <h4 className="mb-7">
         {`
-        Selected achievements and awards:
+        Selected achievements and awards
         `}
       </h4>
       <p className="mb-4">
@@ -56,6 +56,9 @@ export default function Page() {
           {"- Knights & Brides - Facebook's Best New Game, 2016"}
         </li>
       </ul>
+      <p className="mb-4">
+        {`Besides tech, I also enjoy endurance sports and wild nature.`}
+      </p>
       <div className="my-8">
         <BlogPosts />
       </div>
