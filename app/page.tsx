@@ -7,12 +7,18 @@ export default function Page() {
         Pavel Bushuyeu
       </h1>
       <h3 className="mb-4">
-        {`Hello. My name is Pavel and I am a technology product leader and entrepreneur with a passion for product design.
+        {` 
+        Hello. I'm Pavel,a technology product leader, delivering quality products since 2014, mainly focused on B2B SaaS solutions.
+        `}
+      </h3>
+      <h3 className="mb-4">
+        {` 
+        Currently, I'm working on launching products in AI space, mentoring other product managers and advising start-ups on product strategy.
         `}
       </h3>
       <h4 className="mb-4 text-xl">
         {`
-        Career highlights
+        Awards
         `}
       </h4>
       <ul>
