@@ -86,11 +86,11 @@ export default function Page() {
           {`Facebook named Vizor's Klondike the Best Web Geme of 2015.`}
         </li>
       </ul>
-
+      {/* 
       <p className="mb-2">{`Recent blog posts:`}</p>
       <div className="my-8">
         <BlogPosts />
-      </div>
+      </div> */}
     </section>
   );
 }
