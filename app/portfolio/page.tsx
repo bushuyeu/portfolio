@@ -2,7 +2,7 @@ import { PortfolioWorks } from "app/components/works";
 
 export const metadata = {
   title: "Portfolio - PB",
-  description: "Pavel Bushuyeu's portfolio of work",
+  description: "Pasha Bushuyeu's portfolio of work",
 };
 
 export default function Page() {

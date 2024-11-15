@@ -4,16 +4,16 @@ export default function Page() {
   return (
     <section>
       <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
-        Pavel Bushuyeu
+        Pasha Bushuyeu
       </h1>
       <h3 className="mb-4">
         {` 
-        Hello, I'm Pavel, an entrepreneur and technology product leader specializing in B2B SaaS solutions. I am an alum of the American University in Bulgaria and the 11 Ventures start-up program.
+        Hello, I'm Pasha, an entrepreneur and technology product leader specializing in B2B SaaS solutions. I am an alum of the American University in Bulgaria and the 11 Ventures start-up program.
         `}
       </h3>
       <h3 className="mb-4">
         {` 
-        Currently, I am focused on launching AI products, mentoring product managers, and assisting startups with product strategy, UX architecture, and design.
+        Currently, I am focused on launching products, mentoring product managers, and assisting startups with product strategy, UX architecture, and design.
         `}
       </h3>
       <h3 className="mb-4 text-xl">
