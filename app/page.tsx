@@ -1,4 +1,5 @@
 import { BlogPosts } from "app/components/posts";
+import Link from "next/link";
 
 export default function Page() {
   return (
@@ -8,12 +9,22 @@ export default function Page() {
       </h1>
       <h3 className="mb-4">
         {` 
-        Hello, I'm Pasha, an entrepreneur and technology product leader specializing in B2B SaaS solutions. I am an alum of the American University in Bulgaria and the 11 Ventures start-up program.
+        Hello, I'm Pasha, a technology product leader. Over the past decade, I’ve built and scaled products for startups and established companies across Eastern Europe and the US. Currently, I’m focused on launching
+        `}{" "}
+        <Link
+          href="https://videodokuta.com"
+          target="_blank"
+          className="text-blue-400 underline"
+          rel="noopener noreferrer"
+        >
+          Video Dokuta
+        </Link>
+        {`, a video analytics application, and mentoring aspiring product managers.
         `}
       </h3>
       <h3 className="mb-4">
         {` 
-        Currently, I am focused on launching products, mentoring product managers, and assisting startups with product strategy, UX architecture, and design.
+        
         `}
       </h3>
       <h3 className="mb-4 text-xl">

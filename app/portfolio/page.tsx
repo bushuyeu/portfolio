@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <section>
       <h1 className="font-semibold text-2xl mb-8 tracking-tighter">
-        Portfolio
+        PB's Portfolio
       </h1>
       <PortfolioWorks />
     </section>
