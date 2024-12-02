@@ -9,7 +9,7 @@ export default function Page() {
       </h1>
       <h3 className="mb-4">
         {` 
-        I am Pasha Bushuyeu, I help startups convert research into end-to-end user experiences that brings revenue. I have worked across the spectrum of tech - from scaling B2B startups to gaming platfomrs. Currently, I’m focused on launching
+        I am Pasha Bushuyeu, I help startups convert research into end-to-end user experiences that bring revenue. I have worked across the spectrum of tech - from scaling B2B startups to gaming platfomrs. Currently, I’m focused on launching
         `}
         <Link
           href="https://videodokuta.com"
