@@ -1,4 +1,4 @@
-import { BlogPosts } from "app/components/posts";
+// import { BlogPosts } from "app/components/posts";
 import Link from "next/link";
 
 export default function Page() {

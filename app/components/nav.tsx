@@ -2,17 +2,17 @@ import Link from "next/link";
 
 const navItems = {
   "/": {
-    name: "home",
+    name: "", // home
   },
   "/portfolio": {
-    name: "portfolio",
+    name: "", // portfolio
   },
   "/blog": {
-    name: "blog",
+    name: "", // blog
   },
   "https://docs.google.com/document/d/12Yf3TqCObbycOHVQyLlXvIoimgqcZ57mUNnfKVAQ3ao/edit?usp=sharing":
     {
-      name: "resume",
+      name: "", // resume
     },
 };
 
