@@ -28,9 +28,9 @@ jobs: # Defines the jobs that will be run in this workflow
       - name: Install dependencies # Installs all required Python packages
         run: | # Run the following shell commands
           python -m pip install --upgrade pip  # Ensure pip is the latest version
-          pip install -r monitor/requirements.txt  # Install dependencies listed in requirements.txt
+          pip install -r email_monitor/requirements.txt  # Install dependencies listed in requirements.txt
 
       - name: Run email monitor # 🚦 Runs the email monitoring scripts
         run: | # Run the following shell commands
-          python monitor/send_test_email.py  # Script to test sending email
-          python monitor/check_inbox.py  # Script to test receiving and validate inbox health
+          python email_monitor/send_test_email.py  # Script to test sending email
+          python email_monitor/check_inbox.py  # Script to test receiving and validate inbox health
