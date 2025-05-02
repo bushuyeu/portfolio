@@ -8,9 +8,10 @@ export default function Page() {
         Pasha Bushuyeu
       </h1>
       <h3 className="mb-4">
-        {` 
-        I help tech companies convert research into end-to-end user experiences. I like to focus on automations and solutions that do magic behind the scenes with minimal involvement from the user.
-        `}
+        {`I help tech companies convert research into end-to-end user experiences.`}
+      </h3>
+      <h3 className="mb-4">
+        {`I like to focus on automations and solutions that do magic behind the scenes with minimal involvement from the user.`}
       </h3>
       <h3 className="mb-4">
         {` 
