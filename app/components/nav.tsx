@@ -7,13 +7,13 @@ const navItems = {
   "/portfolio": {
     name: "work samples", // portfolio
   },
+  "/blog": {
+    name: "blog", // blog
+  },
   "https://docs.google.com/document/d/12Yf3TqCObbycOHVQyLlXvIoimgqcZ57mUNnfKVAQ3ao/edit?usp=sharing":
     {
       name: "resume", // resume
     },
-  "/blog": {
-    name: "", // blog
-  },
 };
 
 export function Navbar() {
