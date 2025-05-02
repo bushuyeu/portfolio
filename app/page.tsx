@@ -8,7 +8,7 @@ export default function Page() {
         Pasha Bushuyeu
       </h1>
       <h3 className="mb-4">
-        {`My mission is to empower people to become healthier, wealthier, and more useful. I do this by building tech products and providing mentorship & support.`}
+        {`I aim to empower people to become healthier, wealthier, and more useful. I do this by building tech products and providing mentorship & support.`}
       </h3>
       <h3 className="mb-4 text-xl">{`My specialties:`}</h3>
       <ul className="list-disc ml-4">
