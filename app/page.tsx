@@ -8,19 +8,31 @@ export default function Page() {
         Pasha Bushuyeu
       </h1>
       <h3 className="mb-4">
-        {`I help tech companies convert research into end-to-end user experiences.`}
+        {`My mission is to empower people to become healthier, wealthier, and more useful. I do this by building tech products and providing support.`}
       </h3>
-      <h3 className="mb-4">
-        {`I like to focus on automations and solutions that do magic behind the scenes with minimal involvement from the user.`}
-      </h3>
-      <h3 className="mb-4">
-        {` 
-        
-        `}
-      </h3>
+      <h3 className="mb-4 text-xl">{`My specialties:`}</h3>
+      <ul className="list-disc ml-4">
+        <li className="mb-2">
+          0 to 1: I’ve helped launch several profitable products, including
+          Video Dokuta - video AI for physical world, SmartX’s Billing,
+          LogicMonitor’s UX monitoring, and EEN’s Body Camera App.
+        </li>
+        <li className="mb-2">
+          ML Product: I enjoy building smart products utlizing machine learning.
+          Examples: Root Cause Analysis of infrastructure alerts for
+          LogicMonitor Topology, driver's score for Gurtam Wialon, GenAI
+          utlization at Video Dokuta.
+        </li>
+
+        <li className="mb-2">
+          Design: I advocate for strong design and utilization of front-end and
+          design libraries to reduce time to market. I’ve helped built design
+          systems for SmartX and LogicMonitor.
+        </li>
+      </ul>
       <h3 className="mb-4 text-xl">
         {` 
-        Previous positions
+        Previous experience
         `}
       </h3>
       <ul className="list-disc ml-4">
