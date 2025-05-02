@@ -14,8 +14,8 @@ export default function Page() {
       <ul className="list-disc ml-4">
         <li className="mb-2">
           0 to 1: I’ve helped launch several profitable products, including
-          Video Dokuta — a video AI for the physical world; billing at SmartX;
-          UX Monitoring at LogicMonitor; Body Camera App at EEN.
+          Video Dokuta—a video AI for the physical world; billing at SmartX; UX
+          Monitoring at LogicMonitor; Body Camera App at EEN.
         </li>
         <li className="mb-2">
           ML Products: I enjoy building data products powered by machine
