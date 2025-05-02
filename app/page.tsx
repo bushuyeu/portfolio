@@ -9,17 +9,7 @@ export default function Page() {
       </h1>
       <h3 className="mb-4">
         {` 
-        I am Pasha Bushuyeu, I help startups convert research into end-to-end user experiences that bring revenue. I have worked across the spectrum of tech - from scaling B2B startups to gaming platfomrs. Currently, I’m focused on launching
-        `}
-        <Link
-          href="https://videodokuta.com"
-          target="_blank"
-          className="text-blue-400 underline"
-          rel="noopener noreferrer"
-        >
-          Video Dokuta
-        </Link>
-        {`, a video analytics application, and mentoring aspiring product managers.
+        I help tech companies convert research into end-to-end user experiences. I like to focus on automations and solutions that do magic behind the scenes with minimal involvement from the user.
         `}
       </h3>
       <h3 className="mb-4">
@@ -78,7 +68,7 @@ export default function Page() {
           , a game development studio.
         </li>
       </ul>
-      <h4 className="mb-4 text-xl">
+      {/* <h4 className="mb-4 text-xl">
         {`
         Selected Awards
         `}
@@ -96,7 +86,7 @@ export default function Page() {
         <li className="mb-8">
           {`Facebook named Vizor's Klondike the Best Web Game of 2015.`}
         </li>
-      </ul>
+      </ul> */}
       {/* 
       <p className="mb-2">{`Recent blog posts:`}</p>
       <div className="my-8">
