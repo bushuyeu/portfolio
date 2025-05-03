@@ -19,8 +19,8 @@ export default function Page() {
         </li>
         <li className="mb-2">
           ML Products: I enjoy building data products powered by machine
-          learning. Examples: root cause analysis of infrastructure alerts for
-          LogicMonitor Topology, driver scoring for Gurtam Wialon, and GenAI
+          learning. Examples: Root Cause Analysis of infrastructure alerts for
+          LogicMonitor Topology, Driver Score for Gurtam Wialon, and GenAI
           utilization at Video Dokuta.
         </li>
 
