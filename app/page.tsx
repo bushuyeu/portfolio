@@ -10,7 +10,7 @@ export default function Page() {
       <h3 className="mb-4">
         {`I aim to empower people to become healthier, wealthier, and more useful. I do this by building tech products and providing mentorship & support.`}
       </h3>
-      <h3 className="mb-4 text-xl">{`My specialties:`}</h3>
+      <h3 className="mb-4 text-xl">{`My specialties`}</h3>
       <ul className="list-disc ml-4">
         <li className="mb-2">
           0 to 1: I’ve helped launch several profitable products, including
