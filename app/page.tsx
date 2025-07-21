@@ -5,12 +5,13 @@ export default function Page() {
   return (
     <section>
       <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
-        Pasha Bushuyeu
+        Pavel Bushuyeu
       </h1>
+
       <h3 className="mb-4">
-        {`I aim to empower people to become healthier, wealthier, and more useful. I do this by building tech products and providing mentorship & support.`}
+        {`I am building `}<a href="https://prevnt.app/" className="text-blue-400 underline">prevnt.app</a> {`a preventive-health platform that turns raw biomarker data into clear insights—helping people understand their bodies and ultimately live longer, healthier lives.`}
       </h3>
-      <h3 className="mb-4 text-xl">{`My specialties`}</h3>
+      {/* <h3 className="mb-4 text-xl">{`My specialties`}</h3>
       <ul className="list-disc ml-4">
         <li className="mb-2">
           0 to 1: I’ve helped launch several profitable products, including
@@ -29,7 +30,7 @@ export default function Page() {
           front-end to design libraries to accelerate design and development.
           I’ve helped build design systems at both SmartX and LogicMonitor.
         </li>
-      </ul>
+      </ul> */}
       <h3 className="mb-4 text-xl">
         {` 
         Previous experience
@@ -81,9 +82,9 @@ export default function Page() {
           , a game development studio.
         </li>
       </ul>
-      {/* <h4 className="mb-4 text-xl">
+      <h4 className="mb-4 text-xl">
         {`
-        Selected Awards
+        Selected Achievements
         `}
       </h4>
       <ul className="list-disc ml-4">
@@ -99,12 +100,7 @@ export default function Page() {
         <li className="mb-8">
           {`Facebook named Vizor's Klondike the Best Web Game of 2015.`}
         </li>
-      </ul> */}
-      {/* 
-      <p className="mb-2">{`Recent blog posts:`}</p>
-      <div className="my-8">
-        <BlogPosts />
-      </div> */}
+      </ul> 
     </section>
   );
 }

@@ -5,7 +5,7 @@ const navItems = {
     name: "home", // home
   },
   "/portfolio": {
-    name: "samples (wip)", // portfolio
+    name: "portfolio", // portfolio
   },
   "/blog": {
     name: "blog", // blog
