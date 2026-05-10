@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description: "Pavel Bushuyeu",
   openGraph: {
     title: "Pavel Bushuyeu",
-    description: "",
+    description: "Pavel Bushuyeu",
     url: baseUrl,
     siteName: "Pavel Bushuyeu",
     locale: "en_US",

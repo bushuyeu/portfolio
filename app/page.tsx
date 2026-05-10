@@ -7,9 +7,15 @@ export default function Page() {
       <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
         Pavel Bushuyeu
       </h1>
-
       <h3 className="mb-4">
-        {`I am building `}<a href="https://prevnt.app/" className="text-blue-400 underline">prevnt.app</a> {`a preventive-health platform that turns raw biomarker data into clear insights—helping people understand their bodies and ultimately live longer, healthier lives.`}
+        {`Graduate AI researcher at the University of Hawaiʻi at Mānoa.`}
+      </h3>
+      <h3 className="mb-4">
+        {`I am building `}
+        <a href="https://prevnt.app/" className="text-blue-400 underline">
+          prevnt.app
+        </a>{" "}
+        {`a preventive-health platform that turns raw biomarker data into clear insights—helping people understand their bodies and ultimately live longer, healthier lives.`}
       </h3>
       {/* <h3 className="mb-4 text-xl">{`My specialties`}</h3>
       <ul className="list-disc ml-4">
@@ -100,7 +106,7 @@ export default function Page() {
         <li className="mb-8">
           {`Facebook named Vizor's Klondike the Best Web Game of 2015.`}
         </li>
-      </ul> 
+      </ul>
     </section>
   );
 }

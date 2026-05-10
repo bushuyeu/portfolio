@@ -76,8 +76,8 @@ export default function Blog({ params }) {
               : `/og?title=${encodeURIComponent(post.metadata.title)}`,
             url: `${baseUrl}/blog/${post.slug}`,
             author: {
-              "@type": "Pavel Bushuyeu",
-              name: "Portfolio",
+              "@type": "Person",
+              name: "Pavel Bushuyeu",
             },
           }),
         }}

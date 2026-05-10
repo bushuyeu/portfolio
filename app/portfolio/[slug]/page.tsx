@@ -2,6 +2,11 @@ import { notFound } from "next/navigation";
 import { getPortfolioPosts } from "app/portfolio/utils";
 import { CustomMDX } from "app/components/mdx";
 
+export async function generateStaticParams() {
+  let works = getPortfolioPosts();
+  return works.map((work) => ({ slug: work.slug }));
+}
+
 export async function generateMetadata({ params }) {
   let works = getPortfolioPosts();
   let work = works.find((work) => work.slug === params.slug);
@@ -26,15 +31,19 @@ export default function Work({ params }) {
 
   return (
     <section>
-      <script type="application/ld+json" suppressHydrationWarning>
-        {JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "Project",
-          headline: work.metadata.title,
-          description: work.metadata.summary,
-          datePublished: work.metadata.publishedAt,
-        })}
-      </script>
+      <script
+        type="application/ld+json"
+        suppressHydrationWarning
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "CreativeWork",
+            headline: work.metadata.title,
+            description: work.metadata.summary,
+            datePublished: work.metadata.publishedAt,
+          }),
+        }}
+      />
       <h1 className="font-semibold text-2xl mb-4 tracking-tighter">
         {work.metadata.title}
       </h1>
