@@ -1,47 +1,39 @@
-// import { BlogPosts } from "app/components/posts";
-import Link from "next/link";
-
 export default function Page() {
   return (
     <section>
       <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
         Pavel Bushuyeu
       </h1>
-      <h3 className="mb-4">
-        {`Graduate AI researcher at the University of Hawaiʻi at Mānoa.`}
+      <h3 className="mb-6">
+        {`Multimodal AI researcher at the University of Hawaiʻi at Mānoa.`}
       </h3>
-      <h3 className="mb-4">
-        {`I am building `}
+      <ul className="list-disc ml-4 mb-8">
+        <li className="mb-2">
+          <a
+            href="https://arxiv.org/abs/2601.10922"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-400 underline"
+          >
+            NeurIPS 2025 DCVLR Challenge
+          </a>
+          {` — 1st place. Curated a 1,000-example multimodal reasoning dataset that improved baseline accuracy by +7.28pp.`}
+        </li>
+        <li className="mb-2">
+          {`ShepBERT — BERT-style EHR transformer for 5-cancer risk prediction in Native Hawaiian and Pacific Islander populations. Pre-trained on 364K patients and 680M clinical events. AIM-AHEAD / NIH funded. Validating on Queen's Medical Center data.`}
+        </li>
+        <li className="mb-2">
+          {`Embodied AI workshop for Iolani School students — hands-on robotics and language model curriculum.`}
+        </li>
+      </ul>
+      <h3 className="mb-6">
+        {`Building `}
         <a href="https://prevnt.app/" className="text-blue-400 underline">
           prevnt.app
-        </a>{" "}
-        {`a preventive-health platform that turns raw biomarker data into clear insights—helping people understand their bodies and ultimately live longer, healthier lives.`}
+        </a>
+        {` — a preventive-health platform that turns raw biomarker data into clear insights, helping people understand their bodies and live longer, healthier lives.`}
       </h3>
-      {/* <h3 className="mb-4 text-xl">{`My specialties`}</h3>
-      <ul className="list-disc ml-4">
-        <li className="mb-2">
-          0 to 1: I’ve helped launch several profitable products, including
-          Video Dokuta—a video AI for the physical world; billing at SmartX; UX
-          Monitoring at LogicMonitor; Body Camera App at EEN.
-        </li>
-        <li className="mb-2">
-          ML Products: I enjoy building data products powered by machine
-          learning. Examples: Root Cause Analysis of infrastructure alerts for
-          LogicMonitor Topology, Driver Score for Gurtam Wialon, and GenAI
-          utilization at Video Dokuta.
-        </li>
-
-        <li className="mb-2">
-          Design: I advocate for strong design principles and the use of
-          front-end to design libraries to accelerate design and development.
-          I’ve helped build design systems at both SmartX and LogicMonitor.
-        </li>
-      </ul> */}
-      <h3 className="mb-4 text-xl">
-        {` 
-        Previous experience
-        `}
-      </h3>
+      <h3 className="mt-8 mb-4 text-xl">{`Background`}</h3>
       <ul className="list-disc ml-4">
         <li className="mb-2">
           Sr Product Manager @{" "}
@@ -51,7 +43,7 @@ export default function Page() {
           >
             SmartX
           </a>
-          , an asset management platform;
+          , an asset management platform
         </li>
         <li className="mb-2">
           Product Manager @{" "}
@@ -61,23 +53,23 @@ export default function Page() {
           >
             LogicMonitor
           </a>
-          , an infrastructure monitoring platform;
+          , an infrastructure monitoring platform
         </li>
         <li className="mb-2">
           Product Manager @{" "}
           <a href="https://een.com/" className="text-blue-400 underline">
             EEN
           </a>
-          , a video management system;
+          , a video management system
         </li>
         <li className="mb-2">
           Product Manager @{" "}
           <a href="https://gurtam.com/" className="text-blue-400 underline">
             Gurtam
           </a>
-          , a fleet management system;
+          , a fleet management system
         </li>
-        <li className="mb-8">
+        <li className="mb-2">
           Associate Product Manager @{" "}
           <a
             href="https://vizor-games.com/"
@@ -85,26 +77,7 @@ export default function Page() {
           >
             Vizor
           </a>
-          , a game development studio.
-        </li>
-      </ul>
-      <h4 className="mb-4 text-xl">
-        {`
-        Selected Achievements
-        `}
-      </h4>
-      <ul className="list-disc ml-4">
-        <li className="mb-2">
-          {`Wealth Advisor named SmartX the Fastest Growing Asset Management Platform of 2022;`}
-        </li>
-        <li className="mb-2">
-          {`Gartner named LogicMonitor as the Best Monitoring Tools of 2019;`}
-        </li>
-        <li className="mb-2">
-          {`Facebook named Vizor's Knights & Brides the Best New Game of 2016;`}
-        </li>
-        <li className="mb-8">
-          {`Facebook named Vizor's Klondike the Best Web Game of 2015.`}
+          , a game development studio
         </li>
       </ul>
     </section>
