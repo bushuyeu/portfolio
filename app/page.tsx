@@ -20,11 +20,9 @@ export default function Page() {
           {` — 1st place. Curated a 1,000-example multimodal reasoning dataset that improved baseline accuracy by +7.28pp.`}
         </li>
         <li className="mb-2">
-          {`ShepBERT — BERT-style EHR transformer for 5-cancer risk prediction in Native Hawaiian and Pacific Islander populations. Pre-trained on 364K patients and 680M clinical events. AIM-AHEAD / NIH funded. Validating on Queen's Medical Center data.`}
+          {`ShepBERT — EHR transformer for 5-cancer risk prediction in Native Hawaiian and Pacific Islander populations. Pre-trained on 364K patients and 680M clinical events. NIH funded.`}
         </li>
-        <li className="mb-2">
-          {`Embodied AI workshop for Iolani School students — hands-on robotics and language model curriculum.`}
-        </li>
+        <li className="mb-2">{`Embodied AI workshop for Iolani students.`}</li>
       </ul>
       <h3 className="mb-6">
         {`Building `}
