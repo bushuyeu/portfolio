@@ -7,23 +7,7 @@ export default function Page() {
       <h3 className="mb-6">
         {`Multimodal AI researcher at the University of Hawaiʻi at Mānoa.`}
       </h3>
-      <ul className="list-disc ml-4 mb-8">
-        <li className="mb-2">
-          <a
-            href="https://arxiv.org/abs/2601.10922"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-400 underline"
-          >
-            NeurIPS 2025 DCVLR Challenge
-          </a>
-          {` — 1st place. Curated a 1,000-example multimodal reasoning dataset that improved baseline accuracy by +7.28pp.`}
-        </li>
-        <li className="mb-2">
-          {`ShepBERT — EHR transformer for 5-cancer risk prediction in Native Hawaiian and Pacific Islander populations. Pre-trained on 364K patients and 680M clinical events. NIH funded.`}
-        </li>
-        <li className="mb-2">{`Embodied AI workshop for Iolani students.`}</li>
-      </ul>
+
       <h3 className="mb-6">
         {`Building `}
         <a href="https://prevnt.app/" className="text-blue-400 underline">
